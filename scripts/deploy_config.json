@@ -1,0 +1,34 @@
+{
+  "localnet": {
+    "algod_address": "http://localhost:4001",
+    "algod_token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "indexer_address": "http://localhost:8980",
+    "indexer_token": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "testnet": {
+    "algod_address": "https://testnet-api.algonode.cloud",
+    "algod_token": "",
+    "indexer_address": "https://testnet-idx.algonode.cloud",
+    "indexer_token": ""
+  },
+  "token_config": {
+    "name": "FarmToken",
+    "unit_name": "FT",
+    "total_supply": 1000000,
+    "decimals": 2,
+    "metadata_cid": "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
+    "metadata_url": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG"
+  },
+  "multisig": {
+    "threshold": 2,
+    "addresses": [
+      "MULTISIG_ADDRESS_1",
+      "MULTISIG_ADDRESS_2", 
+      "MULTISIG_ADDRESS_3"
+    ]
+  },
+  "ipfs": {
+    "gateway": "https://ipfs.io/ipfs/",
+    "pinning_service": "web3.storage"
+  }
+}
